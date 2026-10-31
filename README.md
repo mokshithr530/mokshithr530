@@ -41,12 +41,13 @@
       <p align="center">
         <img src="https://img.shields.io/badge/Python-3.10%2B-blue?style=flat-square" alt="Python">
         <img src="https://img.shields.io/badge/Interface-Rich%20TUI-brightgreen?style=flat-square" alt="Rich">
-        <img src="https://img.shields.io/badge/Release-v1.0.0-blue?style=flat-square" alt="Release">
+        <img src="https://img.shields.io/badge/Prometheus-Exporter-orange?style=flat-square" alt="Prometheus">
+        <img src="https://img.shields.io/badge/Release-v1.1.0-blue?style=flat-square" alt="Release">
       </p>
       <p>High-performance Linux terminal network telemetry dashboard tracking socket states, real-time delta bandwidth rates, non-blocking asynchronous reverse DNS, GeoIP metadata, and connection anomaly alerts.</p>
       <ul>
-        <li>Interactive hotkeys (live sorting by PID/process/state, pause/resume, search)</li>
-        <li>Automated multi-version CI matrix & Docker deployment</li>
+        <li>Interactive TUI (process inspection modal, live search, and process termination)</li>
+        <li>Embedded Prometheus <code>/metrics</code> server, systemd service, and Arch packaging</li>
       </ul>
     </td>
   </tr>
